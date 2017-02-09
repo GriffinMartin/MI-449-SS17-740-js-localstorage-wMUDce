@@ -4,13 +4,13 @@ function init () {
   // Counter initiate and render
   var visitCount = window.localStorage.getItem('counter')
   document.getElementById('visits').innerHTML = visitCount
-  window.localStorage.getItem('flux')
   if (visitCount === null) {
     visitCount = 0
   }
   visitCount++
   window.localStorage.setItem('counter', visitCount)
   // Retrieve and set localStorage class
+  window.localStorage.getItem('flux')
   if (window.localStorage.getItem('flux') === 'off') {
     toggleOff()
   } else if (window.localStorage.getItem('flux') === 'on') {
