@@ -3,12 +3,12 @@ var fluxButton = document.getElementById('flux')
 function init () {
   // Counter initiate and render
   var visitCount = window.localStorage.getItem('counter')
-  document.getElementById('visits').innerHTML = visitCount
   if (visitCount === null) {
     visitCount = 0
   }
   visitCount++
   window.localStorage.setItem('counter', visitCount)
+  document.getElementById('visits').innerHTML = 'Total Visits: ' + visitCount
   // Retrieve and set localStorage class
   window.localStorage.getItem('flux')
   if (window.localStorage.getItem('flux') === 'off') {
