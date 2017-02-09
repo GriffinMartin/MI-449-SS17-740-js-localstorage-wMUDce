@@ -1,6 +1,27 @@
 .flux-off {
-  background-color: orange;
+  background-color: #DEB887;
 }
+.flux-off h2 {
+  color: #8B4513;
+}
+
 .flux-on {
-  background-color: red;
+  background-color: #4B0082;
+}
+
+.flux-on h2 {
+  color: #DD99FF;
+}
+
+.container {
+  padding-top: 200px;
+  margin: auto;
+}
+
+#flux {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
