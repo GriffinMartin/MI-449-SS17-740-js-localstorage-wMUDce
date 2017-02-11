@@ -1,15 +1,15 @@
-.flux-off {
+.off {
   background-color: #DEB887;
 }
-.flux-off h2 {
+.off h2 {
   color: #8B4513;
 }
 
-.flux-on {
+.on {
   background-color: #4B0082;
 }
 
-.flux-on h2 {
+.on h2 {
   color: #DD99FF;
 }
 
